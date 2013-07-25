@@ -1,0 +1,43 @@
+{
+  "name": "walkner-prodcount",
+  "version": "0.0.0",
+  "description": "Production line counters application in Node.js.",
+  "license": "NPOSL-3.0",
+  "homepage": "https://github.com/morkai/walkner-prodcount",
+  "author": {
+    "name": "Łukasz Walukiewicz",
+    "email": "lukasz@walukiewicz.eu",
+    "url": "http://lukasz.walukiewicz.eu/"
+  },
+  "bugs": "https://github.com/morkai/walkner-prodcount/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/morkai/walkner-prodcount.git"
+  },
+  "engine": [
+    "node >=0.8.0"
+  ],
+  "main": "./backend/server",
+  "dependencies": {
+    "mongodb": "~1.2.13",
+    "mongoose": "~3.5.7",
+    "connect": "~2.7.3",
+    "express": "~3.1.0",
+    "ejs": "0.8.x",
+    "ejs-amd": "0.0.x",
+    "socket.io": "0.9.x",
+    "h5.step": "~0.1.0",
+    "lodash": "1.0.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-istanbul": "~0.1.0"
+  },
+  "scripts": {
+    "start": "node ./backend/server.js"
+  }
+}

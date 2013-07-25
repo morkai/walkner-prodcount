@@ -1,0 +1,20 @@
+{
+  "MSG_LOADING_COUNTERS": "Ładowanie liczników...",
+  "MSG_LOADING_COUNTERS_FAILED": "Ładowanie liczników nie powiodło się :(",
+  "MSG_LOADING_COUNTER": "Ładowanie licznika...",
+  "MSG_LOADING_COUNTER_FAILED": "Ładowanie licznika nie powiodło się :(",
+
+  "BREADCRUMBS_BROWSE": "Liczniki",
+
+  "PAGE_ACTION_ADD": "Dodaj licznik",
+
+  "TABLE_ACTION_VIEW": "Pokaż szczegóły licznika",
+  "TABLE_ACTION_EDIT": "Edytuj licznik",
+  "TABLE_ACTION_DELETE": "Usuń licznik",
+
+  "PROPERTY_NAME": "Nazwa",
+  "PROPERTY_UPDATED_AT": "Czas aktualizacji",
+  "PROPERTY_PAUSED": "Zatrzymany",
+  "PROPERTY_STATUS": "Stan",
+  "PROPERTY_VALUE": "Aktualna wartość"
+}

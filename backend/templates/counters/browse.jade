@@ -1,0 +1,45 @@
+extends ../page
+
+prepend page-title
+  | Liczniki -
+
+block page-breadcrumbs
+  li Liczniki
+
+block page-actions
+  li!= actionText('plus', '/counters;add', 'Dodaj nowy licznik')
+
+block content
+  if counters.length === 0
+    p Brak liczników.
+  else
+    div#deleteCounterDialog.modal.hide(tabindex=-1)
+      .modal-header
+        button.close(type='button', 'data-dismiss'='modal') ×
+        h3 Usuwanie licznika
+      .modal-body
+        p Czy na pewno chcesz usunąć wybrany licznik?
+      .modal-footer
+        button.btn('data-dismiss'='modal') Anuluj
+        a.btn.btn-primary.btn-danger(href='#') Usuń licznik
+    table#countersTable.table.table-bordered.table-condensed.table-hover('data-perPage'=pager.limit)
+      thead
+        th Nazwa
+        th.actions Akcje
+      tbody
+        each counter in counters
+          tr('data-id'=counter.id)
+            td= counter.name
+            td.actions
+              != actionIcon('list', '/counters/' + counter.id, 'Wyświetl szczegóły licznika')
+              != actionIcon('pencil', '/counters/' + counter.id + ';edit', 'Edytuj licznik')
+              a.btn.action-delete(
+                href='/counters/' + counter.id + ';delete',
+                title='Usuń licznik',
+                'data-toggle'='modal',
+                'data-target'='#deleteCounterDialog',
+                'data-remote'='false'): i.icon-remove
+    != pager.render()
+
+append scripts
+  script(src='/js/counters/browse.js')

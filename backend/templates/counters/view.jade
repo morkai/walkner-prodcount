@@ -1,0 +1,17 @@
+extends ../page
+
+prepend page-title
+  | Licznik -
+
+block page-breadcrumbs
+  li: a(href='/counters') Liczniki
+  li= counter.name
+
+block page-actions
+  li!= actionText('edit', '/counters/' + counter.id + ';edit', 'Edytuj')
+  li!= actionText('remove', '/counters/' + counter.id + ';delete', 'Usuń')
+
+block content
+  dl.well
+    dt Nazwa
+    dd= counter.name

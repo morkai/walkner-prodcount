@@ -1,0 +1,16 @@
+extends ../page
+
+prepend page-title
+  | Usuwanie licznika -
+
+block page-breadcrumbs
+  li: a(href='/counters') Liczniki
+  li: a(href='/counters/#{counter.id}')= counter.name
+  li Usuwanie
+
+block content
+  form#editCounterForm(method='post', action='/counters/#{counter.id}')
+    input(name='_method', value='delete', type='hidden')
+    p Czy na pewno chcesz usunąć wybrany licznik?
+    .form-actions
+      input.btn.btn-primary(type='submit', value='Usuń')

@@ -1,0 +1,12 @@
+{
+  "DASHBOARD": "Dashboard",
+  "COUNTERS": "Liczniki",
+  "USERS": "Użytkownicy",
+
+  "MY_ACCOUNT": "Moje konto",
+  "UI_LOCALE": "Lokalizacja UI",
+  "LOCALE_PL": "Po polsku",
+  "LOCALE_US": "Po angielsku",
+  "LOG_IN": "Zaloguj się",
+  "LOG_OUT": "Wyloguj się"
+}

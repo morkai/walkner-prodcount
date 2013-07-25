@@ -1,0 +1,17 @@
+extends ../page
+
+prepend page-title
+  | Edytowanie licznika -
+
+block page-breadcrumbs
+  li: a(href='/counters') Liczniki
+  li: a(href='/counters/#{counter.id}')= counter.name
+  li Edycja
+
+block content
+  form#editCounterForm(method='post', action='/counters/#{counter.id}', autocomplete='off')
+    input(name='_method', value='put', type='hidden')
+    include form
+
+append scripts
+  script(src='/js/counters/form.js')

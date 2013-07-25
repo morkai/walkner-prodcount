@@ -1,0 +1,7 @@
+{
+  "root": {
+    "MSG_LOADING_ACTIVE_COUNTERS": "Loading the active counters...",
+    "MSG_LOADING_ACTIVE_COUNTERS_FAILED": "Failed to load the active counters :("
+  },
+  "pl-pl": true
+}

@@ -1,0 +1,20 @@
+@import url("../../vendor/bootstrap/css/bootstrap.css");
+@import url("../../vendor/font-awesome/css/font-awesome.css");
+@import url("./common.css");
+@import url("./dashboard.css");
+
+body > .loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -32px 0 0 -200px;
+  font-size: 64px;
+  width: 400px;
+  height: 64px;
+  text-align: center;
+  text-shadow: 0 0 3px #999;
+}
+body > .loading p {
+  margin: 0;
+  padding: 0;
+}

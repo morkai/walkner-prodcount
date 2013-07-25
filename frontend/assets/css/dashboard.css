@@ -1,0 +1,56 @@
+.page[data-id="dashboard"] > .ft {
+  margin-top: -.5em;
+}
+
+/**
+ * Page actions
+ */
+.dashboard-zoom {
+  position: relative;
+}
+.dashboard-zoom-range {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.dashboard-zoom-value {
+  width: 94%;
+  height: 100%;
+}
+
+/**
+ * Dashboard counters
+ */
+.dashboard-counters {
+  text-align: center;
+  margin-top: -.5em;
+}
+.dashboard-counter {
+  margin: .5em;
+  font-size: 1em;
+}
+.dashboard-counter-name {
+  display: inline-block;
+  font-size: 4em;
+  line-height: 1;
+  margin: 0 .25em 0 0;
+  padding: 0;
+}
+.dashboard-counter-value {
+  display: inline-block;
+  font-family: "Consolas", monospace;
+  font-size: 3em;
+  line-height: 1;
+  padding: 0 0 0 .35em;
+  margin: .15em 0 0 0;
+  border-left: 1px solid rgba(255, 255, 255, .5);
+  min-width: 2.25em;
+  text-align: center;
+  vertical-align: top;
+}
+.dashboard-counter-paused .dashboard-counter-value {
+  border-left-color: rgba(0, 0, 0, .3);
+}

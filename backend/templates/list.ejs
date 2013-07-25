@@ -1,0 +1,33 @@
+<table class="table table-bordered table-striped table-hover">
+  <thead>
+    <tr>
+      <% columns.forEach(function(column) { %>
+      <th><%- column.label %></th>
+      <% }) %>
+      <% if (actions) { %>
+      <th class="actions"><%- t('common', 'TH_ACTIONS') %></th>
+      <% } %>
+    </tr>
+  </thead>
+  <tbody>
+    <% rows.forEach(function(row) { %>
+    <tr>
+      <% columns.forEach(function(column) { %>
+      <td><%= row[column.id] %></td>
+      <% }) %>
+      <% if (actions) { %>
+      <td class="actions">
+        <% actions(row).forEach(function(action) { %>
+        <% if (action.href) { %>
+        <a href="<%- action.href %>" class="btn action-<%- action.id %>" title="<%= action.label %>"><i class="icon-<%- action.icon %>"></i></a>
+        <% } else { %>
+        TODO
+        <% } %>
+        <% }) %>
+      </td>
+      <% } %>
+    </tr>
+    <% }) %>
+  </tbody>
+</table>
+<div class="pagination pagination-centered"></div>

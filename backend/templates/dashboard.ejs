@@ -1,0 +1,8 @@
+<div class="dashboard-counters unselectable">
+  <% counters.forEach(function(counter) { %>
+  <div class="btn dashboard-counter <%= counter.className %>" data-id="<%= counter.id %>">
+    <h1 class="dashboard-counter-name"><%= counter.name %></h1>
+    <p class="dashboard-counter-value"><%= counter.value %></p>
+  </div>
+  <% }) %>
+</div>

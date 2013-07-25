@@ -1,0 +1,21 @@
+{
+  "root": {
+    "MSG_LOADING": "Loading...",
+    "MSG_LOADING_FAILED": "Loading failed :(",
+
+    "TH_ACTIONS": "Actions",
+
+    "ACTION_VIEW_DETAILS": "View details",
+    "ACTION_EDIT": "Edit",
+    "ACTION_DELETE": "Delete",
+
+    "BREADCRUMBS_EDIT": "Editing",
+    "BREADCRUMBS_DELETE": "Deleting",
+
+    "PAGINATION_FIRST_PAGE": "First page",
+    "PAGINATION_PREV_PAGE": "Previous page",
+    "PAGINATION_NEXT_PAGE": "Next page",
+    "PAGINATION_LAST_PAGE": "Last page"
+  },
+  "pl-pl": true
+}

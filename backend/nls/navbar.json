@@ -1,0 +1,15 @@
+{
+  "root": {
+    "DASHBOARD": "Dashboard",
+    "COUNTERS": "Counters",
+    "USERS": "Users",
+
+    "MY_ACCOUNT": "My account",
+    "UI_LOCALE": "UI Locale",
+    "LOCALE_PL": "In Polish",
+    "LOCALE_US": "In English",
+    "LOG_IN": "Log in",
+    "LOG_OUT": "Log out"
+  },
+  "pl-pl": true
+}

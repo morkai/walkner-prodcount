@@ -1,0 +1,13 @@
+{
+  "ALERT_LOADING": "Ładowanie...",
+  "ALERT_LOADING_FAILED": "Ładowanie nie powiodło się :(",
+
+  "TH_ACTIONS": "Akcje",
+
+  "ACTION_VIEW_DETAILS": "Pokaż szczegóły",
+  "ACTION_EDIT": "Edytuj",
+  "ACTION_DELETE": "Usuń",
+
+  "BREADCRUMBS_EDIT": "Edycja",
+  "BREADCRUMBS_DELETE": "Usuwanie"
+}

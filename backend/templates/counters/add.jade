@@ -1,0 +1,15 @@
+extends ../page
+
+prepend page-title
+  | Dodawanie nowego licznika -
+
+block page-breadcrumbs
+  li: a(href='/counters') Liczniki
+  li Dodawanie
+
+block content
+  form#addCounterForm(method='post', action='/counters', autocomplete='off')
+    include form
+
+append scripts
+  script(src='/js/counters/form.js')

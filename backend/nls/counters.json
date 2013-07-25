@@ -1,0 +1,23 @@
+{
+  "root": {
+    "MSG_LOADING_COUNTERS": "Loading the counters...",
+    "MSG_LOADING_COUNTERS_FAILED": "Failed to load the counters :(",
+    "MSG_LOADING_COUNTER": "Loading the counter...",
+    "MSG_LOADING_COUNTER_FAILED": "Failed to load the counter :(",
+
+    "BREADCRUMBS_BROWSE": "Counters",
+
+    "PAGE_ACTION_ADD": "Add a counter",
+
+    "TABLE_ACTION_VIEW": "View the counter's details",
+    "TABLE_ACTION_EDIT": "Edit the counter",
+    "TABLE_ACTION_DELETE": "Delete the counter",
+
+    "PROPERTY_NAME": "Name",
+    "PROPERTY_UPDATED_AT": "Last update time",
+    "PROPERTY_PAUSED": "Paused",
+    "PROPERTY_STATUS": "State",
+    "PROPERTY_VALUE": "Current value"
+  },
+  "pl-pl": true
+}

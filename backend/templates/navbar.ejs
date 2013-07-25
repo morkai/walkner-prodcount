@@ -1,0 +1,25 @@
+<div class="navbar-inner">
+  <span class="brand">^_^</span>
+  <ul class="nav">
+    <li><a href="#"><%- t('navbar', 'DASHBOARD') %></a>
+    <li><a href="#counters"><%- t('navbar', 'COUNTERS') %></a>
+  </ul>
+  <ul class="nav pull-right">
+    <li class="dropdown navbar-account-dropdown">
+      <a href="#account" class="dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-user icon-large navbar-account-status"></i>
+        Some One
+        <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="#account"><%- t('navbar', 'MY_ACCOUNT') %></a>
+        <li class="divider">
+        <li class="nav-header"><%- t('navbar', 'UI_LOCALE') %>
+        <li><a class="navbar-account-locale" href="#" data-locale="pl-pl"><%- t('navbar', 'LOCALE_PL') %></a>
+        <li><a class="navbar-account-locale" href="#" data-locale="en-us"><%- t('navbar', 'LOCALE_US') %></a>
+        <li class="divider">
+        <li><a href="#logout"><%- t('navbar', 'LOG_OUT') %></a>
+      </ul>
+    </li>
+  </ul>
+</div>
