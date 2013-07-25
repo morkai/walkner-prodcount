@@ -43,7 +43,7 @@ npm install
 
 Give write permissions to `var/` directory and all of its subdirectories:
 
-``
+```
 chmod -R 0777 var/
 ```
 
