@@ -75,5 +75,6 @@ file (`3000` by default). Point the Internet browser to http://127.0.0.1:3000/.
 
 ## License
 
-This project is released under the
-[NPOSL-3.0](https://raw.github.com/morkai/walkner-prodcount/master/license.md).
+walkner-prodcount is released under the [CC BY-NC-SA 4.0 License](https://github.com/morkai/walkner-prodcount/blob/master/license.md).
+
+Copyright (c) 2014, Łukasz Walukiewicz (lukasz@walukiewicz.eu). Some Rights Reserved.

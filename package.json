@@ -2,7 +2,7 @@
   "name": "walkner-prodcount",
   "version": "0.0.0",
   "description": "Production line counters application in Node.js.",
-  "license": "NPOSL-3.0",
+  "license": "CC BY-NC-SA 4.0",
   "homepage": "https://github.com/morkai/walkner-prodcount",
   "author": {
     "name": "Łukasz Walukiewicz",
